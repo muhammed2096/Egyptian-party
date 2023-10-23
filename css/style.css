@@ -1,0 +1,101 @@
+#header{
+    background-image: url(../imgs/Party\ Night\ Wallpapers\ HD\ Wallpapers.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+section div.container{
+    position: relative;
+
+    
+}
+.mainTitle{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 250px;
+    z-index: 3;
+    
+}
+#header p{
+   color: #fff;
+   z-index: 3;
+}
+section div.overlay{
+    background-color: rgba(50, 22, 110, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: inherit;
+    width: 100%;
+    opacity: 0.9;
+}
+.openNav{
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+    transition: 0.5s;
+    
+}
+#leftMenu {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: -250px;
+    background-color: #111;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+
+
+#leftMenu a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    padding-block: 15px;
+    margin-left: 20px;
+    transition: color 0.2s;
+}
+#leftMenu a:hover{
+    color: rgb(50, 22, 110);
+}
+#leftMenu .closebtn{
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+#sliderDown{
+    margin: 100px auto;
+}
+#sliderDown h3{
+    padding: 10px;
+    margin: 0;
+    background-color: #08203e;
+    cursor: pointer;
+    color: white;
+}
+#sliderDown div{
+    padding: 10px;
+    display: none;
+}
+#count{
+    background-image: url(../imgs/Join_the_Party_Season_3_Twitter.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+#count #counter{
+    border: #fff 5px solid;
+    font-size: 60px;
+}
+#contact-us{
+    margin: 100px 0 100px 0;
+}
+#count h3{
+    font-size: 40px;
+}
